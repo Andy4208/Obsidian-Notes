@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "从图像上看一致收敛和逐点收敛.md",
+                "file": "Gamma函数和Beta函数部分公式证明.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "从图像上看一致收敛和逐点收敛"
+              "title": "Gamma函数和Beta函数部分公式证明"
             }
           }
         ]
@@ -196,19 +196,19 @@
   },
   "active": "7a9902455ebc05ed",
   "lastOpenFiles": [
+    "Zeta函数偶数值.md",
+    "从图像上看一致收敛和逐点收敛.md",
     "多面体欧拉公式的一种巧妙证明.md",
     "关于连通性.md",
     "n维超球体积推导.md",
     "尺规作图.md",
     "image/chocalates.png",
-    "Zeta函数偶数值.md",
     "约瑟夫环.md",
     "十重计树法.md",
     "神奇的非构造性证明.md",
     "欧拉齐次函数定理.md",
     "利用日期计算星期几.md",
     "黎曼重排定理举例.md",
-    "从图像上看一致收敛和逐点收敛.md",
     "Gamma函数和Beta函数部分公式证明.md",
     "image/锁孔围道.png",
     "image/逐点收敛.png",

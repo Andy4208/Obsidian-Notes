@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zeta函数偶数值.md",
+                "file": "Gamma函数和Beta函数部分公式证明.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Zeta函数偶数值"
+              "title": "Gamma函数和Beta函数部分公式证明"
             }
           }
         ]
@@ -196,8 +196,11 @@
   },
   "active": "c666cfee225cde7f",
   "lastOpenFiles": [
-    "n维超球体积推导.md",
+    "Zeta函数偶数值.md",
+    "Test.md",
     "Gamma函数和Beta函数部分公式证明.md",
+    "约瑟夫环.md",
+    "n维超球体积推导.md",
     "尺规作图.md",
     "从图像上看一致收敛和逐点收敛.md",
     "多面体欧拉公式的一种巧妙证明.md",
@@ -206,10 +209,7 @@
     "利用日期计算星期几.md",
     "欧拉齐次函数定理.md",
     "神奇的非构造性证明.md",
-    "约瑟夫环.md",
     "十重计树法.md",
-    "Test.md",
-    "Zeta函数偶数值.md",
     "image/chocalates.png",
     "image/锁孔围道.png",
     "image/逐点收敛.png",

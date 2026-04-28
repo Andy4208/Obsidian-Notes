@@ -43,6 +43,7 @@ $$ \begin{align*}
 $$
 证毕！
 
+
 5. $\mathrm B(\alpha, 1-\alpha) = \Gamma(\alpha)\Gamma(1-\alpha) = \dfrac{\pi}{\sin \alpha\pi}$(余元公式)
 证明[^2]：
 由上述证明，

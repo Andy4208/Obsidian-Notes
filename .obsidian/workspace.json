@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "55b98998c9258c35",
+        "id": "d582206b547fc1e9",
         "type": "tabs",
         "children": [
           {
-            "id": "c666cfee225cde7f",
+            "id": "ce26e91dabdee0f5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Test.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Test"
+              "title": "新标签页"
             }
           }
         ]
@@ -194,8 +190,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c666cfee225cde7f",
+  "active": "ce26e91dabdee0f5",
   "lastOpenFiles": [
+    "Test.md",
     "利用日期计算星期几.md",
     "欧拉齐次函数定理.md",
     "黎曼重排定理举例.md",
@@ -206,7 +203,6 @@
     "Gamma函数和Beta函数.md",
     "n维超球体积推导.md",
     "Zeta函数偶数值.md",
-    "Test.md",
     "约瑟夫环.md",
     "神奇的非构造性证明.md",
     "十重计树法.md",

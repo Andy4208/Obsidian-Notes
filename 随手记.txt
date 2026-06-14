@@ -1,0 +1,163 @@
+
+学校英文名：
+Nanjing University of Post and Telecommunications
+
+学校邮箱：
+q24010310@njupt.edu.cn
+
+已参加比赛：
+校级，南邮贝院科技节Debug大赛 一等奖
+校级，一pin到底英语词汇大赛 无奖
+校级，鼎新杯程序设计大赛 一等奖
+省级，蓝桥杯程序设计竞赛软件组A类 二等奖
+省级，睿抗机器人开发者大赛编程技能组 一等奖
+省级，江苏省大学生数学竞赛 一等奖
+
+国家级，2025ICPC西安区域赛 二等奖
+国家级，睿抗机器人开发者大赛（RAICOM） 二等奖
+国家级，码蹄杯程序设计大赛 一等奖
+国家级，17届全国大学生数学竞赛初赛 一等奖
+国家级，百度之星程序设计大赛 二等奖
+校级，Bit杯程序设计挑战赛 二等奖
+
+国家级，17届全国大学生数学竞赛决赛 一等奖
+校级，2026年“挑战杯”三维通信大学生创新创业计划竞赛 三等奖
+
+Visual Studio C语言 防止scanf报错的宏：
+#define _CRT_SECURE_NO_WARNINGS
+
+C#：
+随机数：左闭右开
+
+word ·latex：
+选中一行后按&, 可使改行左对齐
+
+texstudio: 
+\documentclass{article}
+\usepackage[UTF8]{ctex}
+\usepackage[document]{ragged2e}%全部左对齐
+\usepackage{amssymb}%黑板报体
+\usepackage{amsmath}
+\usepackage{amsthm}
+\pagestyle{empty}
+\def\d{\mathrm{d}}
+\newtheorem{theorem}{定理}
+\newtheorem{lemma}{引理}
+\newtheorem{definition}{定义}
+\begin{document}
+\end{document}
+
+$$...$$行间公式
+\limits使上下标出现在上下而非右侧
+
+Keil：
+变量定义必须在开头(古早c语言的规定)
+
+基于CubeMX的Keil：
+HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET); // 将PA0设置为低电平
+HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_SET);  // 将PC13设置为高电平
+HAL_Delay(500); // 等待500ms
+
+激活Windows(180天)：
+slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
+slmgr /skms kms.03k.org
+slmgr /ato
+
+Windows 给文件夹上隐藏不可见系统属性：
+attrib +s +a +h +r d:\bak\tools
+attrib -s -a -h -r d:\bak\tools
+
+Windows 清理：
+net stop dosvc
+del /s /f /q C:\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\Cache\*
+net start dosvc
+
+最好：O()
+最坏：O()
+平均：O()
+
+Domooc cdkey:
+6912a1ee41c8d766c60f6530f8a331c134639506474e550dd043750849ce72db
+
+Edge收藏夹栏图标全变白：
+任务管理器杀掉Edge后重启即可
+
+Word：
+[A-Za-z0-9]：正则匹配所有字母和数字
+
+已用：U4Pt-IDRa-z3L4-ksC8-D5C7
+未用：
+U4UM-vdCs-SbXV-2SC8-69D2
+U4OZ-mYOf-lVnO-nJC8-8714
+U4Nl-IDIM-k8HA-nSC8-C182
+U4Iv-j2hd-GeWr-WtC8-3E20
+U4I5-EhEB-qBkC-O7C8-0251
+U4Hu-09Kf-E6JO-jiC8-7776
+U4H9-dnh8-hJkV-TyC8-0FEB
+U4GY-4Trs-fq9G-YCC8-B5B8
+U4Fy-YiIy-bHYm-VOC8-E011
+
+[Fonts]
+sFontConfigFile=Interface\FontConfig_cn.txt
+
+AI很好用，下次别用了
+
+Obsidian-Notes令牌：
+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
+
+克隆仓库：
+git clone https://github.com/Andy4208/Obsidian-Notes
+
+ISE 14.7设置管脚：
+NET "CP" LOC = P124;
+NET "CP" IOSTANDARD = LVCMOS33;
+NET "CR" LOC = P114;
+NET "CR" IOSTANDARD = LVCMOS33;
+NET "F" LOC = P76;
+NET "F" IOSTANDARD = LVCMOS33;
+
+
+ffmpeg -i input.mp3 -ss 00:17:01.700 -t 2.600 -c copy output.mp3
+
+b站视频旋转：
+document.querySelector(".bpx-player-video-wrap").style.transform = "rotate(180deg)"
+
+80
+72
+74
+88
+95
+74
+81
+103
+94
+80
+84
+109
+75
+63
+63
+80
+98
+87
+91
+118
+125
+108
+115
+136
+92
+86
+89
+113
+
+162
+132
+136
+138
+104
+158
+136
+195
+164
+198

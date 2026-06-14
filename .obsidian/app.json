@@ -1,4 +1,5 @@
 {
   "autoPairMarkdown": false,
-  "useTab": false
+  "useTab": false,
+  "promptDelete": false
 }

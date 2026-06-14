@@ -1,0 +1,393 @@
+
+！！！不求甚解原则！！！
+有什么不懂的东西不一定要全部搞懂，
+因为东西实在太多了……
+
+VS Code快捷键：
+ctrl k + ctrl t换背景
+ctrl \并排处理
+
+———————————————————————————————————————
+
+HTML
+
+!+Tab自动补全初始代码
+若无法补全，搜索设置：triggerExpansionOnTab，开启即可
+
+<!DOCTYPE html>
+开头必敲，网页类型
+
+<html lang="en">
+设置网页语言
+
+				<html>
+				/		   \
+	 <head>          <body>
+	 /	  	    \	        /          \
+<meta><title><h1>   …………
+<…>指标签，呈树状结构
+
+<title>：浏览器标签栏显示的标题
+
+<meta>：不能放在其他标签里的信息        注意：等号旁不要空格！
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+以上为自动补全的信息
+
+<link rel="icon" href="/images/logo.png">设置logo
+<meta name="description" content="……">
+<meta name="keyword" content="……">搜索引擎中搜索的关键词
+
+注意：
+绝大部分标签的特点，自动过滤回车和空格
+图片/视频长宽单位默认为像素
+若标签中只设定了高或宽，那么图片/视频会等比例放大/缩小
+
+<div>
+块元素，结束时自动换行，相对于span
+块级标签：
+	<h1>~<h6>：标题元素，数字表示字号，自带加粗
+	<p>：段落，自带外边距
+	<pre>：不过滤回车和空格，等宽字体
+
+	列表：
+    <ol>……
+        <li>……</li>
+        <li>……</li>
+	</ol>
+	<ul>：无序列表，只有点
+	<ol>：有序列表，有序号
+    
+	<dl>……
+        <dt>……</dt>
+        <dd>……</dd>
+        <li>……</li>
+    </dl>
+	<dl>：(无序)词汇列表，可缩进。
+	<dt>不缩进，<dd>缩进，<li>效果同无序列表
+	
+	<header>：标题元素
+	<section>：普通块
+	<article>：素如其名
+	<figure>：可附带标题元素，<figcaption>为标题内容
+	<nav>：导航元素
+	<footer>：页脚
+	
+	表格：
+    <table>
+        <caption>标题</caption>
+        <thead>//表头元素，自动加粗
+            <tr>//无论表头还是内部，必加，表示一行
+                <th colspan="2">姓名</th>
+            </tr>
+        </thead>
+        <tbody>//表格内部单元格
+            <tr>
+                <td>Alice</td>
+                <td>Bob</td>
+            </tr>
+        </tbody>
+    </table>
+	colspan：表示该单元占几个单元格
+
+<span>
+行内元素，结束时不换行，相对于div
+行内标签：
+	<i>：斜体
+	<b>：加粗
+	<strong>：加粗
+	<del>：删除线
+	<ins>：下划线
+	<mark>：高亮
+	
+	图片：
+	<img src="地址" alt="" width="…" height="…">
+	这里alt是图像显示不了时会显示的文字
+	
+	音频：
+	写法一：
+	<audio controls src="/audios/t1.mp3">无法播放</audio>
+	control：播放器
+	autoplay：自动播放
+	<audio>标签中内容是网站不支持时显示的文字
+	写法二：
+    <audio controls>
+        <source src="/audios/t1.mp3" type="audio/mpeg">
+		<source src="/audios/t2.mp3" type="audio/mpeg">
+    </audio>
+	表示第一个播放不了就播放第二个，type指文件类型
+	
+	视频：
+	写法一：
+	<video controls src="/videos/t1.mp3" width="…">无法播放</video>
+	写法二：
+    <video width="300" controls>
+        <source src="/videos/3.mp4" type="video/mp4">
+        <source src="/videos/2.mp4" type="video/mp4">
+    </video>
+	
+	超链接：
+	<a href="https://www.acwing.com" target="_blank">AcWing</a>
+	标签中内容是显示的文字、图片等
+	href是链接网址
+	target="_blank"指在新标签页中打开
+	
+	表单：
+	<form action="/about.html">
+		<label for="绑定">……</label>
+		<input required placeholder="…" type="类型" maxlength="10" minlength="3" name="参数名" id="绑定">
+		//label显示文字等内容，input创建一个输入框，将输入的参数传给后端
+        
+		<br>
+        <textarea name="" id="" cols="30" rows="10">请输入：</textarea>
+		//textarea是个大输入框，可以设置长宽
+		
+		<br>
+        <label for="lang">语言</label>
+        <select name="lang" id="lang">
+            <option value="cpp">cpp</option>
+            <option selected value="java">java</option>
+            <option value="python">python</option>
+        </select>
+		select是可选框，selected表示默认选择项
+		
+        <br>
+        <button type="submit">提交</button>
+	</form>
+	
+	id/for：将id和for相同的label和input绑定
+	name：指输入的内容传给了哪个参数
+	min/maxlength：最大/小输入长度限制
+	required：表示该项必填
+	placeholder：输入框内显示的内容
+	action：把参数提交给的函数
+	类型：
+		text：一般文本
+		number：数字only
+		email：邮箱only
+		password：密码only
+		radio：一个做选择的圆圈标签需加上value
+		file：上传文件
+	
+	
+特殊字符：
+	<br>：    回车
+	<hr>：    水平线
+	&nbsp;    空格
+	&lt;         <
+	&gt;        >
+	&amp;    &
+	&quot;    ""
+	&reg;      ®
+	&copy;    ©
+	&trade;   ™
+
+———————————————————————————————————————
+
+CSS
+
+关于优先级：
+1.按代码顺序执行
+
+长度单位：
+px：像素
+%：相对于父元素的百分比
+em：相对于当前元素的字体大小的几倍
+rem：相对于根元素的字体大小的几倍
+vw：相对于视窗宽度的百分比
+vh：相对于视窗高度的百分比
+
+style：三种定义法
+1.行内样式表：
+<img src="/static/images/logo.png" alt="" style="width: 300px;">
+如上，在元素内增加style即可
+
+2.内部样式表：
+    <style type="text/css">
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;//指把图片变成圆形，占页面大小的50%
+			transform: scale(1.1);//大小变为1.1倍
+			transition: 200ms;//上述变化在200ms内完成
+        }
+    </style>
+如上，在<head>中添加<style>标签，修改<body>里定义的所有选择元素
+
+3.外部样式表
+创建一个文件：*.css
+写上定义内容即可，同时，html中需添加<link>
+<link type="text/css" rel="stylesheet" href="/static/css/style.css">
+
+选择器：
+1.标签选择器：选择所有***标签
+2.ID选择器：选择ID为***的标签，ID前面加#，一般同一标签只有一个
+3.类选择器：选择所有***类的标签，class名前加点
+4.伪类选择器：选择鼠标的动作对象
+语法：img:hover {……}
+类型：
+	:link：链接访问前
+	:visited：链接访问后
+	:hover：鼠标悬停时
+	:active：鼠标点击后长按
+	:focus：(输入框)被选中
+	:nth-child(an + b)：该标签是其父标签的第(an + b)(n ∈ N)个儿子(其他标签也参与计数)
+5.复合选择器：
+	***, ***：同时选择多个标签，(一般每一项单独一行，每一项单独附加伪类)
+	**1.**2：class为**1的**2标签
+	**1 + **2：选择紧跟**1标签后的**2标签
+	**1 **2：选择**1内的所有**2标签
+	**1 > **2：选择父标签是**1的所有**2标签
+6.通配符选择器：
+	*：选择所有标签
+	[***]：选择具有***属性的所有标签
+	[***="……"]：选择***值为……的所有标签
+7.伪元素选择器：
+	::first-letter：第一个字母
+	::first-line：第一行
+	::selection：已被选中的内容
+	::before/after：允许添加content样式，以在规定元素前/后添加内容
+8.优先级：
+在样式后加 !important，可以最优先选择该样式
+	· !important > 行内样式 > ID选择器 > 类与伪类选择器 > 标签选择器 > 通用选择器
+	· 优先级相同，则先来后到
+	· 继承自父元素的优先级最低
+
+颜色：
+color：字体颜色
+background-color：背景(高亮)颜色
+表示方法：
+1.颜色名
+2.16进制：#ADD8E6
+3.RGB：rgb(173, 216, 230)红绿蓝
+4.RGBA：rgba(173, 216, 230, 0.5)红绿蓝 + 透明度
+5.取色：QQ截图，按c复制rgb色号，按ctrl + c复制16进制色号
+
+文本(详见MDN)：
+text-align：对齐方式：right, left, center, justify(两端对齐)
+line-height：行高，可以把行高和div高度设置成相等以实现竖直居中(单行字)
+letter-spacing：字符间距
+text-indent：段落首行缩进距离，2em为两个字
+text-decoration：下划线，波浪线等，详见MDN
+text-shadow：文字影子；四个参(横，纵坐标，半径，颜色)
+
+字体(详见MDN)：
+font-size：字体大小
+font-style：斜体等
+font-weight：粗细程度，值在1~1000
+font-family：字体
+
+背景(详见MDN)：
+background-color：背景颜色
+background-image：背景图片，用url("地址")设置；可以设置渐变色；可以多个
+background-size：背景图片大小
+background-repeat：背景图片是否重复
+background-position：背景图片相对于左上角的偏移量
+background-attachment：背景图片是否随着元素而移/滚动
+
+边框：
+border-style：边框样式
+border-width：边框厚度
+border-color：边框颜色
+border-radius：设置边框圆角：一个参数时确定一个圆，两个参数时确定一个椭圆(详见MDN)
+border-collapse：决定表格中合并单元格的边框是分开还是合并
+border：可以用该属性一次性设置上述前三个样式
+
+外边距：
+margin：
+	可以接受4个值(顺序：上右下左)，
+	可以分别指明4个方向：margin-top, margin-right, margin-bottom, margin-left
+	取值可以为auto，有时可以因此使元素居中
+
+内边距：
+padding：参数、方向与margin同理，不可取auto
+
+元素展示格式(详见MDN)：
+display：
+	block：
+		独占一行
+		width、height、margin、padding均可控制
+		width默认100%。
+	inline：
+		可以共占一行
+		width与height无效，水平方向的margin与padding有效，竖直方向的margin与padding无效
+		width默认为本身内容宽度
+	inline-block
+		可以共占一行
+		width、height、margin、padding均可控制
+		width默认为本身内容宽度
+white-space：对待空格和回车的方式(详见MDN)
+overflow：处理溢出的方式
+text-overflow：处理文本溢出的方式(有时需要overflow、white-space作为前置属性)
+
+盒子模型：
+box-sizing：
+	content-box：是默认值，使border和padding均会增加元素宽高
+	border-box：使border和padding均不增加元素宽高
+
+位置：
+position：
+	static：该待哪儿待哪儿(top, right, bottom, left 和 z-index 属性无效)
+	ralative：可以相对于 该待的位置 调整元素位置
+	absolute：不预留空间，相对于 第一个非static型祖先标签 调整位置
+	fixed：不预留空间，相对于 窗口 调整位置
+	sticky：规则较繁，此处略，建议试验，一下就懂
+top, right, bottom, left：往指定方向调整位置
+
+浮动：
+float：若display属性为inline或inline-block，则强制变成block，但允许共占一行
+	left：类似于文本左对齐
+	right：类似于文本右对齐
+clear：见MDN
+
+———————————————————————————————————————
+
+Vue3:
+
+定义变量须在父组件中，通过setup函数，并返回定义的变量：
+setup() {
+	const user = reactive({
+	    username: "神秘人3hd", 
+	    lastname: "Liu", 
+	    firstname: "Junhan",
+   	    followerCount: 0, 
+	    isFollowed: 0, 
+	});
+	
+	return {
+        user,
+        follow,
+        unfollow,
+        posts,
+        submitPost,
+    }
+}
+
+父组件向子组件传递变量：
+父组件需用v-bind(缩写为冒号)将变量绑定至子组件上
+<UserProfilePosts :posts="posts"/>
+子组件中需用props接收传递的变量
+props: {
+	posts: {
+		type: Object,
+		required: 1,
+	}
+}
+
+子组件向父组件传递：
+子组件需给click等事件绑定函数，函数中用context触发父组件的自定义事件
+setup(props, context) {
+	let content = ref('');
+	
+	const submitPost = () => {
+		context.emit('submitPost', content.value);
+		content.value = ''
+	}
+
+	return {
+		content, submitPost
+	}
+}
+父组件需给自定义事件绑定函数(最好与上述函数同名)，然后才能修改信息
+<UserProfileWrite @submitPost="submitPost" />

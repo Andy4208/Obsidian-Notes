@@ -129,3 +129,8 @@ document.querySelector(".bpx-player-video-wrap").style.transform = "rotate(180de
 生成 MD5 命令:
 certutil -hashfile "d:\test.pdf" MD5
 
+0.045：1,597,463,593
+0.044：1,597,476,176
+0.043：1,597,488,759
+
+0.0450466：1,597,463,007

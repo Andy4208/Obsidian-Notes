@@ -129,7 +129,3 @@ document.querySelector(".bpx-player-video-wrap").style.transform = "rotate(180de
 生成 MD5 命令:
 certutil -hashfile "d:\test.pdf" MD5
 
-论文：472cf023fadbd6efb51300c15b1661cc
-
-材料：6234ce348b2fa39dbd6a0e7d172b9c8d
-

@@ -5,6 +5,17 @@ Nanjing University of Post and Telecommunications
 学校邮箱：
 q24010310@njupt.edu.cn
 
+Notepad++ 自动换行:
+视图 -> 自动换行
+
+配置Github SSH Key:
+ssh-keygen -t rsa -C "2568245210@qq.com"
+cd ~/.ssh  // 进入ssh目录
+cat id_rsa.pub  // 查看ssh公钥，进行复制
+在Github中添加SSH Key
+
+
+
 已参加比赛：
 2024
 校级，南邮贝院科技节Debug大赛 一等奖
@@ -104,8 +115,6 @@ U4Fy-YiIy-bHYm-VOC8-E011
 [Fonts]
 sFontConfigFile=Interface\FontConfig_cn.txt
 
-AI很好用，下次别用了
-
 Obsidian-Notes令牌：
 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
 
@@ -129,11 +138,6 @@ document.querySelector(".bpx-player-video-wrap").style.transform = "rotate(180de
 生成 MD5 命令:
 certutil -hashfile "d:\test.pdf" MD5
 
-0.045：1,597,463,593
-0.044：1,597,476,176
-0.043：1,597,488,759
+刷新DNS缓存:
+ipconfig/flushdns
 
-0.0450466：1,597,463,007
-
-1597489579
-5F37 C1AB

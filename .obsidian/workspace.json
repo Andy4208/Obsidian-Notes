@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "关于数理逻辑的小较真.md",
+                "file": "关于一道数理逻辑题的小较真.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "关于数理逻辑的小较真"
+              "title": "关于一道数理逻辑题的小较真"
             }
           }
         ]
@@ -197,7 +197,7 @@
   "active": "e7d18025c4b5a277",
   "lastOpenFiles": [
     "快速平方根倒数算法.md",
-    "关于数理逻辑的小较真.md",
+    "关于一道数理逻辑题的小较真.md",
     "十重计树法.md",
     "Test.md",
     "n维超球体积推导.md",

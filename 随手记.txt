@@ -14,31 +14,35 @@ cd ~/.ssh  // 进入ssh目录
 cat id_rsa.pub  // 查看ssh公钥，进行复制
 在Github中添加SSH Key
 
-
+手机安装xapk:
+狂点"OS版本"进入开发者模式
+更多设置 -> 开发者选项 -> 狂点"重置为默认值"，关闭"启动系统优化"
+用xapk installer安装即可
 
 已参加比赛：
-2024
+大一
 校级，南邮贝院科技节Debug大赛 一等奖
 校级，一pin到底英语词汇大赛 无奖
 校级，鼎新杯程序设计大赛 一等奖
 省级，蓝桥杯程序设计竞赛软件组A类 二等奖
 省级，睿抗机器人开发者大赛编程技能组 一等奖
 省级，江苏省大学生数学竞赛 一等奖
-
-2025
-国家级，2025ICPC西安区域赛 二等奖
+省级，百度之星程序设计大赛 二等奖
 国家级，睿抗机器人开发者大赛（RAICOM） 二等奖
+
+大二
+国家级，2025ICPC西安区域赛 二等奖
 国家级，码蹄杯程序设计大赛 一等奖
 国家级，17届全国大学生数学竞赛初赛 一等奖
-国家级，百度之星程序设计大赛 二等奖
 校级，Bit杯程序设计挑战赛 二等奖
-
-2026
-国际级，2026数模美赛 二等奖(H奖)
+国家级，2026数模美赛 二等奖(H奖)
 国家级，17届全国大学生数学竞赛决赛 一等奖
 校级，2026年“挑战杯”三维通信大学生创新创业计划竞赛 三等奖
 
-Visual Studio C语言 防止scanf报错的宏：
+大三：
+省级，数模国赛 二等奖
+
+防止MSVC scanf报错的宏：
 #define _CRT_SECURE_NO_WARNINGS
 
 C#：
@@ -65,14 +69,6 @@ texstudio:
 $$...$$行间公式
 \limits使上下标出现在上下而非右侧
 
-Keil：
-变量定义必须在开头(古早c语言的规定)
-
-基于CubeMX的Keil：
-HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET); // 将PA0设置为低电平
-HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_SET);  // 将PC13设置为高电平
-HAL_Delay(500); // 等待500ms
-
 激活Windows(180天)：
 slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
 slmgr /skms kms.03k.org
@@ -87,9 +83,7 @@ net stop dosvc
 del /s /f /q C:\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\Cache\*
 net start dosvc
 
-最好：O()
-最坏：O()
-平均：O()
+Windows 自带录屏: Win+Shift+S
 
 Domooc cdkey:
 6912a1ee41c8d766c60f6530f8a331c134639506474e550dd043750849ce72db
@@ -100,9 +94,8 @@ Edge收藏夹栏图标全变白：
 Word：
 [A-Za-z0-9]：正则匹配所有字母和数字
 
-已用：U4Pt-IDRa-z3L4-ksC8-D5C7
+已用：U4Pt-IDRa-z3L4-ksC8-D5C7, U4UM-vdCs-SbXV-2SC8-69D2
 未用：
-U4UM-vdCs-SbXV-2SC8-69D2
 U4OZ-mYOf-lVnO-nJC8-8714
 U4Nl-IDIM-k8HA-nSC8-C182
 U4Iv-j2hd-GeWr-WtC8-3E20
@@ -112,23 +105,11 @@ U4H9-dnh8-hJkV-TyC8-0FEB
 U4GY-4Trs-fq9G-YCC8-B5B8
 U4Fy-YiIy-bHYm-VOC8-E011
 
-[Fonts]
-sFontConfigFile=Interface\FontConfig_cn.txt
-
 Obsidian-Notes令牌：
 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
 
-克隆仓库：
+笔记的仓库：
 git clone https://github.com/Andy4208/Obsidian-Notes
-
-ISE 14.7设置管脚：
-NET "CP" LOC = P124;
-NET "CP" IOSTANDARD = LVCMOS33;
-NET "CR" LOC = P114;
-NET "CR" IOSTANDARD = LVCMOS33;
-NET "F" LOC = P76;
-NET "F" IOSTANDARD = LVCMOS33;
-
 
 ffmpeg -i input.mp3 -ss 00:17:01.700 -t 2.600 -c copy output.mp3
 
@@ -138,6 +119,74 @@ document.querySelector(".bpx-player-video-wrap").style.transform = "rotate(180de
 生成 MD5 命令:
 certutil -hashfile "d:\test.pdf" MD5
 
-刷新DNS缓存:
-ipconfig/flushdns
+AI说明：
+所用AI工具名称、版本或型号； 
+具体使用目的和环节； 
+主要提示方式与使用过程说明（可附典型交互示例）； 
+对AI输出的采纳、人工修改和核验的主要情况（语言润色除外）
+
+Good Games:
+WheelMates
+ORBITALS
+
+软件安全作业邮箱：
+20260020@njupt.edu.cn
+
+扫雷逆天种子：
+T5：11880
+
+扫雷定式：
+V: 21，131，222
+Q: 中2，边1，33
+T: 中6，边4
+
+把网址中的github改成deepwiki，可以看到AI对该项目的分析
+
+大创：
+季度报告可以保存后导出为word
+论文：可以做动态FJSP问题，先尝试一些较简单的启发式算法；2027年3月、5月各有一次投稿机会
+专利：根据需求改变车床位置；要包装成一个优化问题；比论文简单
+
+skyengine:
+构建: docker compose build
+运行: docker compose up -d
+状态: docker compose ps
+日志: docker compose logs backend
+
+docker network create skyengine-net
+
+Windows 实验报告:
+0123
+0124
+0230
+0306
+0307
+0308
+0310
+0311
+0324
+0516
+
+
+
+邮瓣评分标准：
+10.0 超越幻神的存在
+9.0 幻神
+8.0 不赖 加入自动循环列表
+7.0 不赖 偶尔赤一赤
+6.0 不赖 但是不太想吃
+5.0 赖 对高分的拙劣模仿
+4.0 赖 神人自创
+3.0 ？
+2.0 赖完了
+1.0 简直就是石
+
+
+
+cd ../backend && uvicorn app.main:app --reload --port 8000
+cd backend && uvicorn app.main:app --reload --port 8000
+cd backend && pytest
+
+Deepseek API key:
+sk-2cfd1f68c0884138a647d455e4952267
 

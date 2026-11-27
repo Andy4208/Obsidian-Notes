@@ -2,5 +2,6 @@
   "theme": "obsidian",
   "interfaceFontFamily": "",
   "monospaceFontFamily": "Maple Mono NF CN",
-  "baseFontSize": 17
+  "baseFontSize": 17,
+  "showRibbon": true
 }
